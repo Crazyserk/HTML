@@ -1,0 +1,92 @@
+  <html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="icon" href="/img/rt.png">
+</head>
+
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html"> HOME</a>
+        <a  target="_blank"  href="About.html"> ABOUT US</a>
+        <a target="_blank" href="contacto.html">CONTACT</a>
+        <a href="news.html">NEWS</a>
+        <a href="Merchandising.html"> MERCHANDISING</a>
+        
+    </div>
+
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h1> CONTACT FORM</h1>
+            <h3>WRITE US AND WE WILL BE IN CONTACT WITH YOU SHORTLY </h3>
+
+
+            <form action="submeter-formulario.php" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">NAME
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">GMAIL
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">TELEPHONE
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p>
+                    <label for="website" class="colocar_website">WEB URL
+                    </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>
+
+                <p>
+                    <label for="asunto" class="colocar_asunto">CASE
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                        placeholder="Escribe un asunto">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">MESSAGE
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>SEND</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>FIELDS ARE REQUIRED
+
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+

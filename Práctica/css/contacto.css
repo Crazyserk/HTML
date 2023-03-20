@@ -1,0 +1,146 @@
+.topnav {
+    background-image: url(/img/zed.jpg);
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.topnav a {
+
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+
+    background-color: rgb(159, 125, 125);
+    color: rgb(230, 233, 236);
+
+}
+
+
+
+body {
+    background-image: url(/img/zed.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: 40%;
+    font-family: cursive;
+
+}
+
+
+
+.contact_form {
+    max-width: 650px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+
+
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f9edf6;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fffeff;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #0b0008;
+    border-color: #545053;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #f5ecf3;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #050304;
+}
+
+h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #030303;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #0b0b0b;
+}

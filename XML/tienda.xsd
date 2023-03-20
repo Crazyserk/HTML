@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<element name="tienda">
+		<complexType>
+			<sequence>
+				<element name="producto" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="nombre" type="xs:string" />
+							<element name="marca" type="xs:string" />
+							<element name="precio" type="xs:decimal" />
+							<choice>
+								<element name="edad_recomendada">
+									<simpleType>
+										<restriction base="xs:string">
+											<enumeration value="+0" />
+											<enumeration value="+3" />
+											<enumeration value="+13" />
+											<enumeration value="+18" />
+										</restriction>
+									</simpleType>
+								</element>
+								<element name="pegi">
+									<simpleType>
+										<restriction base="xs:string">
+											<enumeration value="PEGI 3" />
+											<enumeration value="PEGI 7" />
+											<enumeration value="PEGI 12" />
+											<enumeration value="PEGI 13" />
+											<enumeration value="PEGI 16" />
+											<enumeration value="PEGI 18" />
+										</restriction>
+									</simpleType>
+								</element>
+							</choice>
+							<element name="categoria" minOccurs="1" maxOccurs="unbounded">
+								<simpleType>
+									<restriction base="xs:string">
+										<enumeration value="comic" />
+										<enumeration value="manga" />
+										<enumeration value="juego de mesa" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="descuento" type="xs:integer">
+								<simpleType>
+									<restriction base="xs:integer">
+										<minInclusive value="0" />
+										<maxInclusive value="100" />
+									</restriction>
+								</simpleType>
+							</element>
+						</sequence>
+						<attribute name="productoID" type="xs:integer" use="required" />
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

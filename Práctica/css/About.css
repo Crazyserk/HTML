@@ -1,0 +1,52 @@
+.topnav {
+    background-image: url(/img/zed.jpg);
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.topnav a {
+
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    
+}
+
+.topnav a:hover {
+
+    background-color: rgb(159, 125, 125);
+    color: rgb(230, 233, 236);
+}
+
+.letter {
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 1%;
+    font-size: 1.5vw;
+    text-align: justify;
+
+}
+
+body {
+    background-image: url(/img/zed.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: 40%;
+}
+
+footer {
+    color: rgb(255, 246, 246);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.imagen {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: center;
+}

@@ -1,0 +1,16 @@
+
+<!ELEMENT element-name (#PCDATA)><!ELEMENT tienda (producto*)>
+
+<!ELEMENT producto (nombre, marca, precio, (edad_recomendada | pegi)?, categoria+, descuento)>
+<!ATTLIST producto productoID CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT edad_recomendada (#PCDATA)>
+<!ELEMENT pegi (#PCDATA)>
+
+<!ELEMENT categoria (#PCDATA)>
+<!ATTLIST categoria tipo (comic|manga|juego de mesa) #REQUIRED>
+
+<!ELEMENT descuento (#PCDATA)>

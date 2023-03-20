@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+<producto productoID= "01"/>
+<nombre> EL CABALLERO OSCURO</nombre>
+<marca> DC </marca>
+<precio> 19,99€ </precio>
+<edad_recomendada> +12  </edad_recomendada>
+<categoria> Cómic </categoria>
+<descuento> 5% </descuento>
+
+<producto productoID= "02"/>
+<nombre> Bluelock</nombre>
+<marca> MAPPA </marca>
+<precio> 15€ </precio>
+<Pegi> 3 </Pegi>
+<categoria> Manga </categoria>
+<descuento> 2% </descuento>
+
+<producto productoID= "03"/>
+<nombre> Lords of the Ring</nombre>
+<marca> DEVIR </marca>
+<precio> 35€ </precio>
+<edad_recomendada> +7  </edad_recomendada>
+<categoria> Cómic </categoria>
+<descuento> 5% </descuento>
+</tienda>
